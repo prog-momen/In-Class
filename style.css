@@ -186,45 +186,6 @@ button:hover {
     color: var(--primary-color);
 }
 
-/* Sidebar styling */
-.sidebar {
-    position: fixed;
-    top: 100px;
-    left: 10px;
-    width: 200px;
-    background-color: var(--primary-color);
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    color: white;
-    z-index: 1000; /* To keep it on top */
-}
-
-.sidebar h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sidebar ul li {
-    margin-bottom: 10px;
-}
-
-.sidebar ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s ease;
-}
-
-.sidebar ul li a:hover {
-    color: var(--highlight-color);
-}
-
 /* Adjust the content layout to make space for the sidebar */
 body {
     padding-left: 220px; /* Add space to the left for the sidebar */
