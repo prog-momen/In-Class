@@ -177,7 +177,7 @@ button:hover {
     border-radius: 50px;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     transition: opacity 0.3s ease, background-color 0.3s ease;
 }
 
